@@ -1,0 +1,158 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Daniel} \headerlastnamestyle{Palma} \\
+	\vspace{2mm}
+	{\faEnvelope\ danivgy@gmail.com} | {\faMapMarker\ Budapest, Hungary} | {\faLink\ www.danielpalma.website}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Senior Data Engineer \& Scrum Master}
+	{Synetiq}
+	{Budapest, Hungary}
+	{Oct 2016 – Present}
+	{\begin{cvitems}
+		\item {Built software to extract, clean, aggregate and visualise data from various biometric sensors (EEG, PPG, eye tracking camera).}
+		\item {Moved applications to an orchestrated container based infrastructure from bare metal.}
+		\item {Planned and executed move from on-premises to cloud based infrastructure.}
+		\item {Developed fully automated CI/CD processes based on a cloud native approach.}
+		\item {Conducted user research interviews with existing and potential clients.}
+		\item {Organised and managed Scrum related meetings and processes.}
+		\end{cvitems}}
+	\cventry
+	{Software Engineer}
+	{Telenor}
+	{Budapest, Hungary}
+	{Apr 2015 – Oct 2016}
+	{\begin{cvitems}
+		\item {ETL (extract, transform and load) task design and implementation.}
+		\item {Time series and geolocation data visualisation}
+		\item {Reporting and monitoring tool development}
+		\item {Process automatisation}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Python, JavaScript, Go, SQL, bash}} \\
+		Infrastructure:  & {\skill{ Google Cloud Platform, Linux, Docker, Kubernetes, PostgreSQL}} \\
+		Libraries:  & {\skill{ pandas, Luigi, SQLAlchemy, Flask, Vue.js}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Winning project in the category: Data powered apps. We developed an uplift model based recommender system which was supplemented by a targeting platform that used deep learning to find similar faces in ads to the future client in order to create more engagement.}
+	{Telekom Leading Data Hackathon 2017}
+	{Spark, Cassandra, OpenCV, Tensorflow, Keras, pandas}
+	{bigdata.kibu.hu}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Convert text documents to high fidelity audio(books).}
+	{doc2audiobook}
+	{Python, GCP}
+	{github.com/danthelion/doc2audiobook}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{My personal blog mainly about technology.}
+	{Blog}
+	{hugo, netlify}
+	{www.danielpalma.website}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{A MacOS menubar application to display currently playing Spotify track information and lyrics.}
+	{pyet}
+	{Python}
+	{github.com/danthelion/pyet}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Winner of the Qusp prize. Integration of wearable EEG brain sensors into mobile, PC, and web-based apps and games (including AR/VR), robotic systems, or IoT devices.}
+	{IEEE Brain Hackathon 2016}
+	{NeuroPype, NeuroScale}
+	{abc-accelerator.com/budapest-hackathon}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BSc in Computer Science}
+	{Eötvös Lóránd University}
+	{Budapest, Hungary}
+	{Sep 2014 – 2018}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+\ 
+\end{document}
