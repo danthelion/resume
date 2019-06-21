@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.1.20)  20 JAN 2019 14:53
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.1.20)  21 JUN 2019 07:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -944,6 +944,10 @@ LaTeX Info: Redefining \nameref on input line 44.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 10.00015pt on input line 71.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -965,7 +969,7 @@ able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 71.
 
-Overfull \hbox (23.08163pt too wide) in paragraph at lines 95--95
+Overfull \hbox (23.08165pt too wide) in paragraph at lines 95--95
 [][][]|  
  []
 
@@ -981,7 +985,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 158.
 Here is how much of TeX's memory you used:
  25523 strings out of 494988
  461793 string characters out of 6178638
- 659622 words of memory out of 5000000
+ 659611 words of memory out of 5000000
  29161 multiletter control sequences out of 15000+600000
  532283 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
