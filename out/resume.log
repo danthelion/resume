@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.5.9)  9 MAY 2022 10:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.11.6)  6 NOV 2022 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,27 +548,27 @@ LaTeX Info: Redefining \nameref on input line 44.
 \openout3 = `resume.out'.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 66.
+(Font)              scaled to size 10.00107pt on input line 69.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 66.
+(Font)              scaled to size 7.00075pt on input line 69.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 66.
+(Font)              scaled to size 5.00053pt on input line 69.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 66.
+(Font)              scaled to size 9.99893pt on input line 69.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 66.
+(Font)              scaled to size 6.99925pt on input line 69.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 66.
+(Font)              scaled to size 4.99947pt on input line 69.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 66.
+t line 69.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 66.
+t line 69.
 
-Overfull \hbox (33.1667pt too wide) in paragraph at lines 126--126
+Overfull \hbox (97.7057pt too wide) in paragraph at lines 130--130
 [][][]|  
  []
 
@@ -580,11 +580,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  18652 strings out of 478190
- 340684 string characters out of 5854828
- 817225 words of memory out of 5000000
+ 340684 string characters out of 5854827
+ 820225 words of memory out of 5000000
  39008 multiletter control sequences out of 15000+600000
  470759 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,15n,115p,546b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,15n,115p,546b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on out/resume.pdf (1 page).
