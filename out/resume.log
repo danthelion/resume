@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.7)  7 JUL 2023 07:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.7.14)  14 JUL 2023 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,7 +568,7 @@ able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
 t line 56.
 
-Overfull \hbox (118.30865pt too wide) in paragraph at lines 117--117
+Overfull \hbox (112.43167pt too wide) in paragraph at lines 117--117
 [][][]|  
  []
 
@@ -580,8 +580,8 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  18652 strings out of 478190
- 340684 string characters out of 5854828
- 823225 words of memory out of 5000000
+ 340684 string characters out of 5854827
+ 822225 words of memory out of 5000000
  39008 multiletter control sequences out of 15000+600000
  470759 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
